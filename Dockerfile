@@ -6,7 +6,7 @@ RUN apt-get update
 RUN apt-get install -y bzip2 gnupg
 RUN apt-get install -y build-essential 
 RUN apt-get install -y devscripts cmake debhelper dh-exec pkg-config libboost-all-dev
-RUN apt-get install -y gcc-8-arm-linux-gnueabi g++-8-arm-linux-gnueabi 
+RUN apt-get install -y gcc-8-arm-linux-gnueabihf g++-8-arm-linux-gnueabihf 
 RUN apt-get install -y libboost-filesystem-dev 
 RUN apt-get install -y libasound2-dev libgles2-mesa-dev
 RUN apt-get install -y libcurl4-openssl-dev
