@@ -1,0 +1,6 @@
+Types: deb
+# http://snapshot.debian.org/archive/debian/20220102T024729Z/
+URIs: http://snapshot.debian.org/archive/debian/20220102T024729Z/
+Suites: buster
+Components: main
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
