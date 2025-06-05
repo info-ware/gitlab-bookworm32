@@ -2,7 +2,7 @@ FROM debian:bookworm
 
 COPY source_buster /etc/apt/sources.list.d
 
-RUN apt-get update && apt-get install -y gcc-8-arm-linux-gnueabihf g++-8-arm-linux-gnueabihf build-essential devscripts cmake debhelper dh-exec pkg-config libboost-all-dev
+RUN apt-get update && apt-get install -y gcc-8-arm-linux-gnueabi g++-8-arm-linux-gnueabi build-essential devscripts cmake debhelper dh-exec pkg-config libboost-all-dev
 RUN apt-get install -y libboost-filesystem-dev 
 RUN apt-get install -y libasound2-dev libgles2-mesa-dev
 RUN apt-get install -y libcurl4-openssl-dev
