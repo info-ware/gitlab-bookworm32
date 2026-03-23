@@ -1,4 +1,4 @@
-FROM debian:bookworm
+FROM debian:trixie
 
 COPY source_buster /tmp
 RUN cat /tmp/source_buster >>/etc/apt/sources.list.d/debian.sources
